@@ -33,6 +33,9 @@ This is done through the use of Jekyll's built-in tag system, which is useful bu
 <img alt="Cat" src="https://raw.githubusercontent.com/garv-shah/nova-blog/main/static/cat.gif" width="500"/>
 ```
 
+### Maths:
+Jekyll supports rendering maths with Latex. For more information on the syntax, you can visit https://en.wikibooks.org/wiki/LaTeX/Mathematics, with https://quicklatex.com allowing for some quick rendering since GitHub's built-in markdown does not. 
+
 ### Features of the Blog:
 - Inline Maths with $$
 - Images and stuff
