@@ -14,6 +14,24 @@ author:
 ---
 {% include header.html %}
 ```
+<br>
+To include images or gifs, just upload the file to the static folder. This is where all of files will be hosted and can be accessed within the markdown. The following line can be used:
+
+```
+![Name]({{ site.baseurl }}{% link static/filename %})
+```
+
+An example of which would be:
+
+```
+![Cat]({{ site.baseurl }}{% link static/cat.gif %})
+```
+
+This is done through the use of Jekyll's built-in tag system, which is useful but not exactly flexible. For more control, you can render HTML directly in the markdown file, which works, but is just not ideal. Below is an example of the same cat gif from above, just bigger with HTML:
+
+```
+<img alt="Cat" src="https://raw.githubusercontent.com/garv-shah/nova-blog/main/static/cat.gif" width="500"/>
+```
 
 ### Features of the Blog:
 - Inline Maths with $$
