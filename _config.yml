@@ -1,9 +1,18 @@
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
 title: The NOVA System
-description: EARLY ALPHA
+description: a work in progress
+author: Garv Shah
 markdown: kramdown
-baseurl: "/blog" # the subpath of your site, e.g. /blog
-url: "https://the-nova-system.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog"
+url: "https://the-nova-system.github.io"
+
+social-network-links:
+  email: "gshah.6110@gmail.com"
+  github: The-NOVA-System
+
+navbar-links:
+  Home: "https://the-nova-system.github.io/blog"
+  Website: "https://the-nova-system.github.io"
 
 collections:
   posts:
