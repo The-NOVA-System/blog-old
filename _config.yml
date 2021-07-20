@@ -2,8 +2,8 @@ theme: jekyll-theme-slate
 title: The NOVA System
 description: EARLY ALPHA
 markdown: kramdown
-baseurl: "/nova-blog" # the subpath of your site, e.g. /blog
-url: "https://garv-shah.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://the-nova-system.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   posts:

@@ -9,7 +9,7 @@ function makeBlogPost() {
 }
 function fetchPosts() {
   var request = new XMLHttpRequest();
-  const ATOM_FEED_URL = "https://garv-shah.github.io/nova-blog/feed.xml";
+  const ATOM_FEED_URL = "https://the-nova-system.github.io/blog/feed.xml";
   const ERROR_MSG = "Uh Oh: Cannot load posts at the moment :("
   request.open("GET", ATOM_FEED_URL, true);
 
