@@ -34,7 +34,7 @@ function loadPosts(feedXml) {
  //posts are ordered from most recent to least
  for (var i=0; i<listPosts.length; i++) {
    post = listPosts.item(i); //get ith post
-   var link = post.getElementsByTagName("link")[0].attributes.getNamedItem("href").value.replaceAll("/","-");
+   var link = post.getElementsByTagName("link")[0].attributes.getNamedItem("href").value
    var excerpt = post.getElementsByTagName("summary")[0].textContent;
    var title = post.getElementsByTagName("title")[0].textContent;
    var published = post.getElementsByTagName("published")[0].textContent;
