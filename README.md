@@ -42,7 +42,7 @@ Essentially, the main website is just an RSS Reader, which loads the feed.xml ge
 
 ## Summary of Jekyll
 Jekyll is essentially a renderer that makes writing blogs much much easier. It lets you put in a Markdown file and produces a full html website. <br>
-Markdown is a lightweight markup language, and in essence, it's very similar to writing a Word document, as most of it is just text, with a bit of syntax to tell the renderer what stuff is (https://www.Markdownguide.org is a great resource to learn more about Markdown) <br>
+Markdown is a lightweight markup language, and in essence, it's very similar to writing a Word document, as most of it is just text, with a bit of syntax to tell the renderer what stuff is (https://www.markdownguide.org is a great resource to learn more about Markdown) <br>
 As mentioned above, Jekyll goes slightly beyond the scope of Markdown, allowing for the rendering of Liquid and Textile out of the box, with support for other markup languages like LaTeX as well. <br><br>
 At build time, Jekyll compiles all the files above and creates a few new directories. GitHub Pages (the host for this project) supports Jekyll natively, so above, you don't see the actual directory that is served to the user but rather a precompiled version. As an example of this, the "feed.xml" file mentioned above is nowhere to be found in the repo above, and is instead created by Jekyll on build. <br>
 This being said, the website you see above isn't structured exactly like any Jekyll site, as in the actual "home page" doesn't use Jekyll at all. Rather, the page you see is an RSS reader. *Technically it's creating an Atom feed, but RSS and Atom feeds are similar enough to the point that I use the terms interchangeably. Same thing.* <br>
