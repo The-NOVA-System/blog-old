@@ -34,14 +34,15 @@ function loadPosts(feedXml) {
  //posts are ordered from most recent to least
  for (var i=0; i<listPosts.length; i++) {
    post = listPosts.item(i); //get ith post
-   var link = post.getElementsByTagName("link")[0].attributes.getNamedItem("href").value
-   var excerpt = post.getElementsByTagName("summary")[0].textContent;
-   var title = post.getElementsByTagName("title")[0].textContent;
-   var published = post.getElementsByTagName("published")[0].textContent;
+   const link = post.getElementsByTagName("link")[0].attributes.getNamedItem("href").value;
+   const excerpt = post.getElementsByTagName("summary")[0].textContent;
+   const title = post.getElementsByTagName("title")[0].textContent;
+   let published = post.getElementsByTagName("published")[0].textContent;
    published = published.substring(0, 10).replaceAll("-","/") //clean to YYYY-MM-DD
+   const author = post.getElementsByTagName("author")[0].textContent;
    console.log(excerpt, title, published, link)
-   var postElem = makeBlogPost();
-   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span style="color: var(--muted-text-color)">' + published + "</span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: var(--highlight-color);color: var(--highlight-color);">Read More</a>'
+   let postElem = makeBlogPost();
+   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span style="color: var(--muted-text-color)"><p>' + published + "</p><p>" + author + "</p></span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: var(--highlight-color);color: var(--highlight-color);">Read More</a>'
    document.querySelector("#page > main > section > div > div.block-content").appendChild(postElem)
  }
 }
