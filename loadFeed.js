@@ -42,7 +42,7 @@ function loadPosts(feedXml) {
    const author = post.getElementsByTagName("author")[0].textContent;
    console.log(excerpt, title, published, link)
    let postElem = makeBlogPost();
-   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span style="color: var(--muted-text-color)"><p>' + published + "</p><p>" + author + "</p></span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: var(--highlight-color);color: var(--highlight-color);">Read More</a>'
+   postElem.innerHTML = "<h3>" + title + '</h3><div class=\"info\"><span style="color: var(--muted-text-color)">By ' + author + " - " + published + "</span></div><p>"+excerpt +'</p><a class="btn btn-outline-primary btn-sm" role="button" href="'+link+'" style="border-color: var(--highlight-color);color: var(--highlight-color);">Read More</a>'
    document.querySelector("#page > main > section > div > div.block-content").appendChild(postElem)
  }
 }
