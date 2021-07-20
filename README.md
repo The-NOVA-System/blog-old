@@ -8,9 +8,9 @@ It's pretty simple, you just create a markdown file with the format YYYY-MM-DD-T
 Each file must be started with the following structure:
 ```
 ---
-title:
-excerpt:
-author:
+title: Insert Title
+excerpt: Insert Excerpt
+author: Insert Author
 ---
 {% include header.html %}
 ```
