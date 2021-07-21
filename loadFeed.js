@@ -4,7 +4,7 @@
 function makeBlogPost() {
   var postElem = document.createElement("div")
   var CSSattr = document.createAttribute("class")
-  CSSattr.value = "clean-blog-post"
+  CSSattr.value = "portfolio-block block-intro"
   postElem.setAttributeNode(CSSattr)
   return postElem;
 }
@@ -26,7 +26,7 @@ function fetchPosts() {
     } else if (this.readyState == 4) {
       let textbox = makeBlogPost();
       textbox.innerHTML = ERROR_MSG;
-      document.querySelector("#page > main > section > div > div.block-content").appendChild(textbox)
+      document.querySelector("body > main > div").appendChild(textbox)
     }
   };
 }
@@ -63,7 +63,7 @@ function loadPosts(feedXml) {
         `
 
         //finally, here we push the final post element into the block-content div
-        document.querySelector("#page > main > section > div > div.block-content").appendChild(postElem)
+        document.querySelector("body > main > div").appendChild(postElem)
     }
 }
 fetchPosts()
