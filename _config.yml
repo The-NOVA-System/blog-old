@@ -39,3 +39,6 @@ pwa:
     - "/**/*.{js,json,css}"
     - "/**/*.{ico,jpg,jpeg,png,svg}"
     - "/**/*.html"
+  precache_glob_ignores: # Optional
+    - "sw-register.js"
+    - "fonts/**/*"
