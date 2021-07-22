@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Home - NOVA</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="tags" content="Crypto, Cryptocurrencies, CAPTCHA, AI, Machine Learning">
     <meta name="author" content="Garv Shah">
     <meta name="twitter:card" content="summary_large_image">
@@ -13,6 +14,8 @@
     <meta name="description" content="Hello! We are the NOVA Team. Collectively, we are working towards a future where cryptocurrencies can be maintained through the use of proofs of human works (PoHs), paving the path for alternatives to cryptos as well as modern CAPTCHAs">
     <meta property="og:image" content="https://garv-shah.github.io/assets/img/NOVA System logo.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon_32.png">
+    <link rel="manifest" href="./manifest.json">
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
@@ -51,6 +54,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/app.js"></script>
     <script src="loadFeed.js" type="text/javascript"></script>
 
     <script>
@@ -58,7 +62,7 @@
         if ('serviceWorker' in navigator) {
             // Use the window load event to keep the page load performant
             window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js');
+                navigator.serviceWorker.register('/sw.js');
             });
         }
     </script>

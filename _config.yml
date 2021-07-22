@@ -28,3 +28,17 @@ kramdown:
 feed:
   posts_limit: 50
   excerpt_only: true
+
+pwa:
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/js # Required
+  precache_recent_posts_num: 15 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "/**/*.{js,json,css}"
+    - "/**/*.{ico,jpg,jpeg,png,svg}"
+    - "/**/*.html"
+  precache_glob_ignores: # Optional
+    - "sw-register.js"
+    - "fonts/**/*"
