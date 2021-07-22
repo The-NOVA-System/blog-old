@@ -5,6 +5,7 @@ author: Garv Shah
 markdown: kramdown
 baseurl: "/blog"
 url: "https://the-nova-system.github.io"
+github: [metadata]
 
 social-network-links:
   email: "gshah.6110@gmail.com"
