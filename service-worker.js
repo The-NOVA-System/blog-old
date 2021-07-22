@@ -14,6 +14,7 @@ workbox.core.clientsClaim();
 
 // let Workbox handle our precache list
 workbox.precaching.precacheAndRoute(self.__precacheManifest);
+console.log(self.__precacheManifest)
 
 // use `NetworkFirst` strategy for html
 workbox.routing.registerRoute(
@@ -27,14 +28,17 @@ workbox.routing.registerRoute(
     new workbox.strategies.NetworkFirst()
 );
 
-// use `CacheFirst` strategy for images
 workbox.routing.registerRoute(
-    /assets\/(img|icons)/,
+    /assets/,
     new workbox.strategies.CacheFirst()
 );
 
-// use `StaleWhileRevalidate` third party files
 workbox.routing.registerRoute(
-    /^https?:\/\/cdn.staticfile.org/,
-    new workbox.strategies.StaleWhileRevalidate()
+    /posts/,
+    new workbox.strategies.CacheFirst()
+);
+
+workbox.routing.registerRoute(
+    /static/,
+    new workbox.strategies.CacheFirst()
 );
