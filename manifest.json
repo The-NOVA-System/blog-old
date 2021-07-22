@@ -1,0 +1,24 @@
+{
+  "short_name": "NOVA Blog",
+  "name": "The NOVA System Blog",
+  "theme_color": "#2d388a",
+  "apple-touch-icon": "https://the-nova-system.github.io/assets/img/apple-touch-icon.png",
+  "icons": [
+    {
+      "src": "https://the-nova-system.github.io/assets/img/nova-app-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://the-nova-system.github.io/assets/img/nova-splash-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "background_color": "#2b6ab4",
+  "description": "The NOVA System's official blog",
+  "display": "fullscreen"
+}
