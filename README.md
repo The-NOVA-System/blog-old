@@ -77,6 +77,9 @@ sudo bundle install
 
 If all went well, it should have installed all the gem dependencies, and you should be good to go. Just run ```bundle exec jekyll serve``` and it should start hosting the site at http://127.0.0.1:4000/. Yay!
 
+### PWA
+The main site is a PWA but making this Jekyll site its own independant PWA is kinda being a pain, so installing the app from the main site leads to almost the same functionality
+
 # Progress Board:
 https://github.com/orgs/The-NOVA-System/projects/1
 
