@@ -14,7 +14,7 @@ function fetchPosts() {
   let request = new XMLHttpRequest();
   const getUrl = window.location;
   const baseUrl = getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
-  const ATOM_FEED_URL = baseUrl + "/feed.xml";
+  const ATOM_FEED_URL = baseUrl + "./feed.xml";
   //this just gets the base url and gets the feed.xml file. It was changed to a relative url for testing purposes, as the local builds would lead to the main page
   const ERROR_MSG = "Uh Oh: Cannot load posts at the moment :("
   request.open("GET", ATOM_FEED_URL, true);
