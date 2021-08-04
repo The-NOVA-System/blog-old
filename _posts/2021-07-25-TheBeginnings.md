@@ -13,11 +13,11 @@ On the 15th of May, 2021, Natsuki messaged me detailing the idea he'd come up wi
 
 (typo included and all)<br><br>
 The initial concept was simple, one that had been implemented many times before, and we set our sights on producing a crypto similar to SolarCoin or NANO. <br>
-We also then detailed the other elements of the project, such as education, and called it a day, having a good few ideas as to what we could base our project around. <br> <br>
+We also then detailed the other elements of the project, such as education, and called it a day, having a good few ideas as to what we could base our project around.   <br> <br>
 
 ### 16/05/2021
 Natsuki came up with an idea: what if crypto's relied on human work instead of computer work? <br>
-The idea was crude at best, implausible at worst, but needless to say, it was very interesting. The logistics and architecture were miles beyond what we as high school students knew, but if it was possible, it'd definitely be interesting. <br>
+The idea was crude at best, implausible at worst, but needless to say, it was very interesting. The logistics and architecture were miles beyond what we as high school students knew, but if it was possible, it'd definitely be interesting. In a day where crypto currencies such as Bitcoin has a comparable amount of energy consumption as pakistan a year, using proof of human work systems would provide a better alternative to the inefficiency's of such technology   <br>
 Over the next few weeks, we developed the idea further and found some resources with people thinking along the same lines:
 - [research paper that drove the initial concept](https://link.springer.com/chapter/10.1007/978-3-662-53644-5_20)
 
