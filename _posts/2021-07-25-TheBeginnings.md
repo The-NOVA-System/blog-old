@@ -26,8 +26,8 @@ Somewhere around the start of June, we introduced Liam to the concept as well. I
 In the end, we settled on one idea, as described on the homepage:
 >The idea was to design proof of human work puzzles for a cryptocurrency, which could serve as an alternative to current CAPTCHAs. This would effectively create a crypto with human miners, possessing the benefit of being better for the environment than most widespread cryptos, being less vulnerable to 51% attacks that small cryptos can frequently face, and generally being a fairer crypto that anyone could get into.
 
-To phrase it in layman's terms, when you normally send someone money with a credit card, the bank gets a message saying "Garv is sending Natsuki $5". 
-Subsequently, the bank takes $5 out of my account and puts in Natsuki's. 
+To phrase it in layman's terms, when you normally send someone money with a credit card, the bank gets a message saying "Garv is sending Natsuki 5 dollars". 
+Subsequently, the bank takes 5 dollars out of my account and puts in Natsuki's. 
 A collection of all these transactions is called a ledger. 
 Now, with normal money, there is one entity (the bank) managing all the trades, which makes it very easy for them to get away with whatever they want. 
 We don't like big corporations, so the cryptocurrency was created. 
