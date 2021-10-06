@@ -10,7 +10,6 @@ So continuing from the last blog post, I've been working on the app over the hol
 as much done as I wanted to, I have a UI mockup that I'm pretty proud of so far. The app is based on the wireframe below from [here](https://www.uplabs.com/posts/crypto-app-6a473389-202b-4cee-ad23-94cf46c172cd). <br> <br>
 ![wireframe]({{ site.baseurl }}{% link static/wireframe.png %}) <br>
 Using some ~open source github repos~ (which are always useful), I have a little non-functional demo ready: <br>
-<video muted autoplay controls width="100%"> <source src="{{ site.baseurl }}{% link static/mockup.mp4 %}" type="video/mp4"> </video>
 Being programmed in Flutter, the same app showcased as a MacOS application here will target the web, iOS, Android and the Windows store. 
 It is mainly designed as a mobile app, so there may be some usability issues when it comes to that, but it seems to be working pretty well so far.
 
