@@ -11,3 +11,11 @@ as much done as I wanted to, I have a UI mockup that I'm pretty proud of so far.
 ![wireframe]({{ site.baseurl }}{% link static/wireframe.png %}) <br>
 Using some ~open source github repos~ (which are always useful), I have a little non-functional demo ready: <br>
 <video muted autoplay controls width="100%"> <source src="{{ site.baseurl }}{% link static/mockup.mp4 %}" type="video/mp4"> </video>
+Being programmed in Flutter, the same app showcased as a MacOS application here will target the web, iOS, Android and the Windows store.
+It is mainly designed as a mobile app, so there may be some usability issues when it comes to that, but it seems to be working pretty well so far.
+
+# Next Steps:
+The next steps should be pretty straight forward, as I've decided which API I want to use and just have to hook it up now.
+The one thing I'm worried about is that Nomics may not offer graph data in the exact way I want it, so creating a "detailed"
+view for each crypto may prove a tiny bit difficult. I'd rather not use one API for the graphs and another for the data, which
+would kind of be a mess. I've asked a few people for feedback on the UI so far, and what I've got is:
