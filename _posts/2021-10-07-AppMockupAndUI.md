@@ -1,6 +1,6 @@
 ---
-title: Developing the App
-excerpt: verifying the need and starting to create some resources
+title: App Mockup and UI
+excerpt: progress update on the app with some ui mockups
 author: Garv Shah
 ---
 {% include header.html %}
