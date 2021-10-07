@@ -22,10 +22,10 @@ Failed assertion: line 120 pos 12: '_drawAreaBoundsOutdated == false': is not tr
 ```
 
 I searched the error up, and the only solution I could find was [this](https://github.com/flutter/flutter/issues/31778#issuecomment-593146310). 
-Frankly, it works, and I was able to implement it too. The only problem is (and I'm sorry I forgot to record this as a screen recording, I already reverted 
-the changes so I can't do it now), when you switch to a different tab and then switch back, it stays on loading forever, and just never changes. I 
-have no clue why it does that, and I probably should have kept a backup of the other file anyways incase I ever solved it, but after about 6 hours 
-of work, I gave up trying to make it work the way I intended.
+Frankly, it works, and I was able to implement it too. The only problem is , when you switch to a different tab and then switch back, it stays 
+on loading forever, and just never changes. I have no clue why it does that, but after about 6 hours of work, I gave up trying to make it work 
+the way I intended. <br>
+<video muted autoplay controls width="100%"> <source src="{{ site.baseurl }}{% link static/mockup_3.mp4 %}" type="video/mp4"> </video>
 
 # The Dodgy Solution:
 So in the end, the solution I'm working on is pretty damn dodgy all things considered. Since it breaks the graphs if they're 
