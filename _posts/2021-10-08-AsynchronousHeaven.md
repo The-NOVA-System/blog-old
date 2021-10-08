@@ -64,7 +64,7 @@ binaries, but that should be enough for now. woop woop
 ## Update
 I added a workflow that automatically build and uploads artifacts every time I commit to GitHub no effort on my side. So if you want *pre-*pre-releases, go to the following link and click on your relevant operating system
 
-### https://nightly.link/The-NOVA-System/nova_app/workflows/flutter/main
+### [download link](https://nightly.link/The-NOVA-System/nova_app/workflows/flutter/main)
 
 # Summary
 After much effort, we've finally finished the mockup phase of the app! We've got some very good groundwork laid for the future, 
