@@ -61,6 +61,11 @@ lose my code and have an archive of what it was before. So, after probably a bit
 version of the app [here](https://github.com/The-NOVA-System/nova_app/releases/tag/mockup). Currently, I've only compiled MacOS and Android 
 binaries, but that should be enough for now. woop woop
 
+## Update
+I added a workflow that automatically build and uploads artifacts every time I commit to GitHub no effort on my side. So if you want *pre-*pre-releases, go to the following link and click on your relevant operating system
+
+### https://nightly.link/The-NOVA-System/nova_app/workflows/flutter/main
+
 # Summary
 After much effort, we've finally finished the mockup phase of the app! We've got some very good groundwork laid for the future, 
 and hopefully this can be done within 2 weeks or so, it will definitely be fun to use once it all is. Thanks for reading :))
