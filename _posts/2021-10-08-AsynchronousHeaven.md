@@ -7,8 +7,8 @@ author: Garv Shah
 
 # Programming is so fun when it works :D
 So, after being relentlessly annoyed by how annoying computers were, I spent a majority of today working on the app, 
-most of it during class time when I probably should have being doing something a little more productive. Nonetheless, 
-the sacrificed time from my other subjects paved the path for genuinely working theming (yayy!!) <br>
+a lot of it during class time, but that's fine since I finished all my other school work anyways. Anyways, the time and effort from 
+today paved the path for genuinely working theming (yayy!!) <br>
 As I mentioned in the last post, I came across a solution that I managed to implement, but wasn't working particularly well 
 for me. What the solution suggested was to make the loading of the charts asynchronous, something which frustratingly, 
 google charts doesn't seem to offer within the package itself. I *did* say I gave up on this idea yesterday, but while in 
