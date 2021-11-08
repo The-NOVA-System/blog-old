@@ -1,6 +1,0 @@
----
-title: I Think I Need To Do This
-excerpt: So basically i decided to go through the github repositories today as i was curious on some of the more technical aspecs of the build so i decided to go through it. I went through some files and edited the read me a bit. I found that we have an Apche Licence so thast good, however i am unsure if it is being utilised in the apllication yet per instructions so i will have to double check with garv about that.
-author: Natsuki Rogers
----
-{% include header.html %}
