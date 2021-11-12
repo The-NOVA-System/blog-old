@@ -1,4 +1,3 @@
-{% include header.html %}
 ---
 title: A Possible New Feature 
 excerpt: Today i came up with this idea to have achivement badges that are connected to each persons profile. 
