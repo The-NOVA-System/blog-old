@@ -1,6 +1,6 @@
 ---
 title: A Possible New Feature 
-excerpt: Badge implimentation
+excerpt: Badge implementations  
 author: Natsuki Rogers
 ---
 {% include header.html %}
