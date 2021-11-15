@@ -15,8 +15,9 @@ No, but seriously, there's been a lot of progress, much of which I haven't cover
 So one of the first things that I worked on after the last post was a login system. I spent quite some time designing a mockup
 (thank you open source github repos), and I ended up with this:
 
-![login screenshot]({{ site.baseurl }}{% link static/macos_login_screenshot.png %})
-![login recording]({{ site.baseurl }}{% link static/ios_login_sim.mp4 %})
+MacOS Screenshot                                                                     |  iOS Simulator Recording
+:-----------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:
+![login screenshot]({{ site.baseurl }}{% link static/macos_login_screenshot.png %})  |  <video muted autoplay controls width="100%"> <source src="{{ site.baseurl }}{% link static/ios_login_sim.mp4 %}" type="video/mp4"> </video>
 
 Honestly, I believe that the design above looks a lot better than what we ended up with, but the problem was that it just wasn't dynamic enough, and with 
 all the different screen sizes we intended to support (along with the difference between login and signup), it ended up not looking great. This coupled with 
