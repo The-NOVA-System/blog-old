@@ -11,6 +11,7 @@ Having effectively created a useful teaching resource by way of the app, and wri
 <br>
 It was a possibility to host our lessons during remote learning, but we feel that we wouldn’t have been able to provide the same engaging lesson experience over an online medium, since we wanted a large part of these workshops to be discussion-based and us going around and helping people out. Therefore, we managed to find a compromise with Mr Hamilton; that we could host our lessons during the End of Year Program. Unfortunately that meant we would have to condense a series of lessons into a shorter 2-hour period, but at least we were going to have a chance for people to experience our workshops in person. 
 <br>
+<br>
 At the end of the day, we were quite happy to have been able to make this compromise – the End of Year Program still being a month and a bit away gives us a fair bit more time than we originally thought to finalise the app and lessons, and we still have plenty of time to cover all the content that we want to. Actually, having the programs in the last week of school increases the probability of people coming, because in the tumultuous few last weeks of school, people are going to prioritise getting their work done, and potentially either forget about our sessions or disregard them for more time to get stuff done. With everything finished up, people will be able to kick back and enjoy our lessons.
 <br>
 <br>
@@ -24,7 +25,7 @@ I hope you’ve had a nice afternoon. As we’ve already discussed, my Community
 <br>
 **Teaching resource**
 <br>
-Our teaching resource, for use as a practical demonstration of the knowledge in our lessons, is a simulated trading experience using virtual “money” to give people the experience of investing in cryptocurrencies, similar to the ASX Trading Game held earlier this year. If you would like to try the *work in progress* online version, create an account with your school email and a password of your choice; https://the-nova-system.github.io/nova_app/. Here are some screenshots of the progress of creating the app:
+Our teaching resource, for use as a practical demonstration of the knowledge in our lessons, is a simulated trading experience using virtual “money” to give people the experience of investing in cryptocurrencies, similar to the ASX Trading Game held earlier this year. If you would like to try the *work in progress* online version, create an account with your school email and a password of your choice; https://the-nova-system.github.io/nova_app/. 
  <br>
  <br>
 **Lesson plans**
@@ -33,8 +34,12 @@ Our lessons aim to educate students about cryptocurrencies and the technologies 
 <br>
 <br>
 Thank-you for considering our project idea as an event for the End of Year Program.
+<br>
+<br>
 Kind regards,
+<br>
 Liam Shaw_
+<br>
 <br>
 <br>
 Thankfully, our application went through and we now have the clear to host our lessons during the End of Year Program!
