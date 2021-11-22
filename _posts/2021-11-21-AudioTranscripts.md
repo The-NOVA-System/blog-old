@@ -1,7 +1,7 @@
 ---
 title: Audio Transcripts
 excerpt: a collection of audio files
-author: Garv Shah
+author: The NOVA Team
 ---
 {% include header.html %}
 
