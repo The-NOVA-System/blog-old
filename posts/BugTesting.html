@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Bug Testing and Firebase Discussion | The NOVA System</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Bug Testing and Firebase Discussion" />
+<meta name="author" content="Liam Shaw" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Polishing up" />
+<meta property="og:description" content="Polishing up" />
+<link rel="canonical" href="https://the-nova-system.github.io/blog/posts/BugTesting" />
+<meta property="og:url" content="https://the-nova-system.github.io/blog/posts/BugTesting" />
+<meta property="og:site_name" content="The NOVA System" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-30T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Bug Testing and Firebase Discussion" />
+<script type="application/ld+json">
+{"headline":"Bug Testing and Firebase Discussion","dateModified":"2021-10-30T00:00:00+00:00","description":"Polishing up","datePublished":"2021-10-30T00:00:00+00:00","url":"https://the-nova-system.github.io/blog/posts/BugTesting","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://the-nova-system.github.io/blog/posts/BugTesting"},"author":{"@type":"Person","name":"Liam Shaw"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/blog/assets/css/style.css?v=">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">The NOVA System</h1>
+      <h2 class="project-tagline">a work in progress</h2>
+      
+      
+    </section>
+
+    <section class="main-content">
+      
+<html>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous" />
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+</html>
+
+<h1 id="polishing-up-our-app-and-using-firebase">Polishing up our app, and using Firebase</h1>
+<p>With the app in its final stages of development, we decided to dedicate this week to bug testing and patching any problems that might occur. Initially, this all occurred on the web version of the app, as both the testflight iOS beta version and the iOS app store version were both still under review. With the help of some friends who we invited onto the app, we managed to immediately find and patch a few duplication glitches that occurred in the buying and selling menus.
+<br />
+<br />
+We quickly found that entering a value of 0 or a negative wreaked havoc through the system, giving users their inputted money back or allowing them to have as much money as they want. Fortunately, two simple lines of code containing inequality equations and an error message were able to prohibit people from exploiting our system.
+<br />
+<br />
+The testflight beta of the app came out towards the end of this week. To our great excitement, our app worked flawlessly, with much better loading times in comparison to the web version of the app. It seemed so smooth and responsive! This gave us some very high expectations for the final app, which is soon to appear on the app store.
+<br />
+<br />
+Fortunately, since we host all our accounts on Google’s Firebase system, we were able to quickly reset any accounts who used the exploits while bug testing. Firebase has proved to be incredibly useful, and I’m glad we ended up choosing it over alternatives. We spent a while discussing what the best service to use was, and ended up choosing Firebase for its simple interface and free hosting, and ability to push updates to certain groups of people (for example, our beta testers with accounts using the @caulfieldgs domain). 
+<br />
+<br />
+Eventually, the hope for our app is to migrate the large majority of the interface to being hosted on Firebase, so that we can push live updates and not have to wait for them to be reviewed as updates through the app store. Hopefully, this will provide a better user experience over all.</p>
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>

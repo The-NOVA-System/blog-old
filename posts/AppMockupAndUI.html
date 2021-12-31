@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>App Mockup and UI | The NOVA System</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="App Mockup and UI" />
+<meta name="author" content="Garv Shah" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="progress update on the app with some ui mockups" />
+<meta property="og:description" content="progress update on the app with some ui mockups" />
+<link rel="canonical" href="https://the-nova-system.github.io/blog/posts/AppMockupAndUI" />
+<meta property="og:url" content="https://the-nova-system.github.io/blog/posts/AppMockupAndUI" />
+<meta property="og:site_name" content="The NOVA System" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-10-06T00:00:00+00:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="App Mockup and UI" />
+<script type="application/ld+json">
+{"headline":"App Mockup and UI","dateModified":"2021-10-06T00:00:00+00:00","description":"progress update on the app with some ui mockups","datePublished":"2021-10-06T00:00:00+00:00","url":"https://the-nova-system.github.io/blog/posts/AppMockupAndUI","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://the-nova-system.github.io/blog/posts/AppMockupAndUI"},"author":{"@type":"Person","name":"Garv Shah"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/blog/assets/css/style.css?v=">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">The NOVA System</h1>
+      <h2 class="project-tagline">a work in progress</h2>
+      
+      
+    </section>
+
+    <section class="main-content">
+      
+<html>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous" />
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          renderMathInElement(document.body, {
+            // customised options
+            // • auto-render specific keys, e.g.:
+            delimiters: [
+                {left: '$$', right: '$$', display: true},
+                {left: '$', right: '$', display: false},
+                {left: '\\(', right: '\\)', display: false},
+                {left: '\\[', right: '\\]', display: true}
+            ],
+            // • rendering keys, e.g.:
+            throwOnError : false
+          });
+      });
+  </script>
+</html>
+
+<h1 id="yay-app-design">Yay, App Design!</h1>
+<p>So continuing from the last blog post, I’ve been working on the app over the holidays. Even though I didn’t exactly get 
+as much done as I wanted to, I have a UI mockup that I’m pretty proud of so far. The app is based on the wireframe below from <a href="https://www.uplabs.com/posts/crypto-app-6a473389-202b-4cee-ad23-94cf46c172cd">here</a>. <br /> <br />
+<img src="/blog/static/wireframe.png" alt="wireframe" /> <br />
+Using some ~open source github repos~ (which are always useful), I have a little non-functional demo ready: <br /></p>
+<video muted="" autoplay="" controls="" width="100%"> <source src="/blog/static/mockup.mp4" type="video/mp4" /> </video>
+<p>Being programmed in Flutter, the same app showcased as a MacOS application here will target the web, iOS, Android and the Windows store.
+It is mainly designed as a mobile app, so there may be some usability issues when it comes to that, but it seems to be working pretty well so far.</p>
+
+<h1 id="next-steps">Next Steps:</h1>
+<p>The next steps should be pretty straight forward, as I’ve decided which API I want to use and just have to hook it up now.
+The one thing I’m worried about is that Nomics may not offer graph data in the exact way I want it, so creating a “detailed”
+view for each crypto may prove a tiny bit difficult. I’d rather not use one API for the graphs and another for the data, which
+would kind of be a mess. I’ve asked a few people for feedback on the UI so far, and what I’ve got is:</p>
+
+<ul>
+  <li>add the time period next to the crypto name (one day, one week, etc)</li>
+  <li>add up or down arrows to green/red values on side</li>
+  <li>remove brackets from value (can signify negative)</li>
+</ul>
+
+<p><br />
+The main feedback has been the time period not being clear enough, so I’ll just integrate a default into settings which should solve that. 
+Besides hooking it into the API, adding a login system with Firebase should be pretty easy. The main use for the account system in the app is 
+just currency conversions from fiat to fiat (the one stored in the database will most likely be USD, while people here in Australia will 
+probably use USD) as well as the leaderboards. Overall, progress is going well!</p>
+
+
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
+
+    
+  </body>
+</html>
