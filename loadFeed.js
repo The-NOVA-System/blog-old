@@ -12,7 +12,7 @@ function makeBlogPost() {
 //fetches the posts from the rss feed
 function fetchPosts() {
   let request = new XMLHttpRequest();
-    const ATOM_FEED_URL = "http://the-nova-system.github.io/blog/feed.xml";
+    const ATOM_FEED_URL = "https://the-nova-system.github.io/blog/feed.xml";
   //this just gets the base url and gets the feed.xml file. It was changed to a relative url for testing purposes, as the local builds would lead to the main page
   const ERROR_MSG = "Uh Oh: Cannot load posts at the moment :("
   request.open("GET", ATOM_FEED_URL, true);
